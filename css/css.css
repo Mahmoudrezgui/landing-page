@@ -1,0 +1,42 @@
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-style: italic;
+  color: rgb(126, 72, 72);
+}
+h2 {
+  font-style: oblique;
+  color: rgb(126, 72, 72);
+}
+.jamb {
+  font-style: italic;
+  color: rgb(12, 114, 75);
+}
+@media screen and (max-width: 768px) {
+  .media > h1 {
+    font-size: 12px;
+  }
+  .media > h2 {
+    font-size: 12px;
+  }
+  .media > p {
+    font-size: 12px;
+  }
+  .img {
+    display: none;
+  }
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
